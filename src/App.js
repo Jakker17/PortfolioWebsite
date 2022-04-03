@@ -8,15 +8,17 @@ import Info from "./components/pages/Info";
 
 function App() {
   return (
+    <div className="app-light">
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/info" element={<Info/>}/>
-          <Route path="/projects" element={<InDevelopment/>}/>
-          <Route path="/blog" element={<InDevelopment/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/info" element={<Info />} />
+          <Route path="/projects" element={<InDevelopment />} />
+          <Route path="/blog" element={<InDevelopment />} />
         </Routes>
       </Router>
+    </div>
   );
 }
 
