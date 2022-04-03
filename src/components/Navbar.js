@@ -84,7 +84,7 @@ function Navbar() {
                   </a>
                 </div>
                 <div className="navbar-icons-icon">
-                  <a href="https://Linkedin.com">
+                  <a href="https://www.linkedin.com/in/martin-juroš-37b277224/">
                     <img src={LinkedinIcon} alt="" />{" "}
                   </a>
                 </div>

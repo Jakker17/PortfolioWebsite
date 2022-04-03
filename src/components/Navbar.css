@@ -1,11 +1,13 @@
 .navbar {
     /* background: linear-gradient(90deg, rgb(249, 135, 135) 0%, rgb(26, 23, 23) 100%); */
     border-bottom: 2px solid black;
+    background-color: #fff;
     height: 80px;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
+    
   }
   
   .navbar-container {
