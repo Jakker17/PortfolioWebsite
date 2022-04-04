@@ -1,17 +1,35 @@
 .experience{
-    height: 20vh;
-    border: 2px solid black;
     margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 
-.line-bottom{
+.experience-block{
+    width: 75%;
+    margin-top: 3%;
+}
+
+.experience-content{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+}
+
+.experience-block-underline{
     height: 1vh;
-    border-top: 1px solid black ;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-left: 17%;
-    margin-right: 17%;
+    border-top: 1px solid black;
+    margin-bottom: 1%;
+}
+
+.list-content >li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.experience-header{
+    width: 75%;
 }

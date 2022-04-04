@@ -1,0 +1,13 @@
+.bold-item{
+    display: inline;
+    font-weight: bold;
+}
+
+.tools-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.tools-content >h3{
+    margin-top: 5%;
+}

@@ -27,7 +27,6 @@ function InfoHeader() {
           </div>
           <div className="info">
             <div className="info-left">
-              <h1>Hey, I am Martin.</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam
                 quis nulla. Integer vulputate sem a nibh rutrum consequat.
@@ -54,7 +53,6 @@ function InfoHeader() {
               <img className="picture" src={ProfilePicture} alt="" />
             </div>
             <div className="info-down">
-              <h1>Hey, I am Martin.</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam
                 quis nulla. Integer vulputate sem a nibh rutrum consequat.
@@ -65,7 +63,6 @@ function InfoHeader() {
               </p>
             </div>
           </div>
-          <div className="info-line"></div>
         </div>
       )}
     </>

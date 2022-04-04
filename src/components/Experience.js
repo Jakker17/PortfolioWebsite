@@ -4,8 +4,49 @@ import "./Experience.css";
 function Experience() {
   return (
     <div>
-      <div className="experience">Experience</div>
-      <div className="line-bottom"></div>
+      <div className="experience">
+        <div className="experience-header">
+          <h1>Experience</h1>
+        </div>
+        <div className="experience-block">
+          <h2>Skills</h2>
+          <div className="experience-block-underline"></div>
+          <div className="experience-content">
+            <div>
+              <ul className="list-content">
+                <li>English/Czech</li>
+                <li>Software Development</li>
+                <li>Web Development</li>
+                <li>Windows 7/10</li>
+                <li>Basic Linux/Windows Scripting</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Basic Docker containering</li>
+                <li>Basic to Advanced knowledge of Kafka</li>
+                <li>Fast Learner</li>
+                <li>Databases: Oracle SQL, PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="experience-block">
+          <h2>Programming languages</h2>
+          <div className="experience-block-underline"></div>
+          <div className="experience-content">
+            <div>
+              <ul className="list-content">
+                <li>Java</li>
+                <li>Spring Framework</li>
+                <li>React.js</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

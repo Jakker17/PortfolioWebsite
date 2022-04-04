@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .header > h1 {
@@ -29,16 +28,10 @@
   margin-left: 10vh;
 }
 
-.info-left > h1 {
-    font-size: 40px;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
-
 .info-left > p {
-    font-size: 20px;
-    width: 70%;
-    display: block;
+  margin-top: 15%;
+  width: 70%;
+  display: block;
 }
 
 .info-right {
@@ -52,38 +45,37 @@
   justify-content: center;
 }
 
-.picture{
-    height: 400px;
+.picture {
+  height: 400px;
 }
 
-.info-line{
-    height: 10%;
-    display: flex;
-    border-top: 1px solid black;
-    margin-top: 5%;
-    margin-left: 17%;
-    margin-right: 17%;
+.info-line {
+  height: 10%;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 17%;
+  margin-right: 17%;
 }
 
-.info-smaller{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+.info-smaller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 
-.info-up{
-    margin-bottom: 5%;
+.info-up {
+  margin-bottom: 5%;
 }
 
-.info-down{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin-inline: 18%;
+.info-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-inline: 18%;
 }
 
 .info-down > h1 {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
