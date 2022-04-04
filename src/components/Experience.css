@@ -14,20 +14,8 @@
 }
 
 .experience-content{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 20px;
-}
-
-.experience-block-underline{
-    height: 1vh;
-    border-top: 1px solid black;
-    margin-bottom: 1%;
-}
-
-.list-content >li{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .experience-header{

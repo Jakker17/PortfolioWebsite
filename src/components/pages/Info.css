@@ -16,3 +16,18 @@ li{
 p{
     font-size: 20px;
 }
+
+.block-underline{
+    height: 1vh;
+    border-top: 1px solid black;
+    margin-bottom: 1%;
+}
+
+ul{
+    margin-top: 2%;
+}
+
+.list-content >li{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

@@ -11,9 +11,9 @@ function Info() {
         <InfoHeader/>
         <div className="line-bottom"></div>
         <Contact/>
-        <div className="line-bottom"></div>
+        
         <Experience/>
-        <div className="line-bottom"></div>
+        
         <Tools/>
     </div>
   )
