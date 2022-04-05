@@ -31,7 +31,30 @@ function Tools() {
       <div className="tools-block">
           <h2>Software</h2>
           <ul className="list-content">
-              <li></li>
+          <li>
+            <p className="bold-item">Code: </p> Visual Studio Code
+          </li>
+          <li>
+            <p className="bold-item">Back-end: </p> IntelliJ IDEA Ultimate
+          </li>
+          <li>
+            <p className="bold-item">Database Management: </p> dBeaver/terminal
+          </li>
+          <li>
+            <p className="bold-item">Notes: </p> Evernote
+          </li>
+          <li>
+            <p className="bold-item">Browser: </p> Google Chrome
+          </li>
+          <li>
+            <p className="bold-item">Browser: </p> Google Chrome
+          </li>
+            <p className="bold-item">Honorable mentions: </p> 
+            <ul>
+              <li>SourceTree</li>
+              <li>Notepad++</li>
+              <li>Postman</li>
+            </ul>
           </ul>
       </div>
     </div>
