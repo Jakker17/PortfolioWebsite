@@ -12,7 +12,7 @@ function Tools() {
         <h2>Hardware</h2>
         <ul className="list-content">
           <li>
-            <p className="bold-item">PC: </p> M1 MacBook Air 13" 2020 16GB RAM
+            <p className="bold-item">PC: </p> M1 MacBook Air 13" 2021 16GB RAM
           </li>
           <li>
             <p className="bold-item">Monitor: </p> TBD

@@ -6,14 +6,16 @@ function Contact() {
     <div>
       <div className="contact">
         <div className="text">
-          <h2>Contact</h2>
+          <h2 style={
+            {marginBottom:10}
+          }>Contact</h2>
           <p>
             You can contact me via email, my linkedin or github profile.
             All of the mentioned will be below.
           </p>
         </div>
         <div className="contact-links">
-          <ul>
+          <ul className="list-content">
             <li>
               <a href="https://github.com/Jakker17" className="link">
                 Github

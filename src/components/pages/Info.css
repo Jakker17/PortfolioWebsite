@@ -1,33 +1,33 @@
-.line-bottom{
-    height: 1px;
-    border-top: 1px solid black ;
-    margin-left: 10%;
-    margin-right: 10%;
+.line-bottom {
+  height: 1px;
+  border-top: 1px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-h2{
-    color: blueviolet;
+h2 {
+  color: blueviolet;
 }
 
-li{
-    margin-left: 20px;
+li {
+  margin-left: 20px;
 }
 
-p{
-    font-size: 20px;
+p {
+  font-size: 20px;
 }
 
-.block-underline{
-    height: 1vh;
-    border-top: 1px solid black;
-    margin-bottom: 1%;
+.list-content {
+  margin-top: 2%;
 }
 
-ul{
-    margin-top: 2%;
+.block-underline {
+  height: 1vh;
+  border-top: 1px solid black;
+  margin-bottom: 1%;
 }
 
-.list-content >li{
-    margin-top: 10px;
-    margin-bottom: 5px;
+.list-content > li {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
