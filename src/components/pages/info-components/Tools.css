@@ -9,6 +9,16 @@
     width: 1280px;
 }
 
+.tools-smaller{
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
 .tools-header{
         width: 75%;
 }
