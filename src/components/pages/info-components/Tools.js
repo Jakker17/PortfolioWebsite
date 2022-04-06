@@ -70,12 +70,14 @@ function Tools() {
                 <li>
                   <p className="bold-item">Browser: </p> Google Chrome
                 </li>
+                <li>
                 <p className="bold-item">Honorable mentions: </p>
-                <ul>
+                <ul className="list-content ul-margin">
                   <li>SourceTree</li>
                   <li>Notepad++</li>
                   <li>Postman</li>
                 </ul>
+                </li>
               </ul>
             </div>
           </div>

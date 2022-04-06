@@ -6,6 +6,10 @@
     color: black;
   }
 
+  .app-light{
+    background-color: white;
+  }
+
   .app-light-menu{
     background-color: rgb(226, 226, 226);
     border: 1px solid rgb(175, 175, 175);
