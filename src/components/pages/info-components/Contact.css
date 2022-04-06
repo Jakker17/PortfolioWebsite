@@ -1,6 +1,14 @@
 .contact{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 1280px;
+}
+.contact-smaller{
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,10 +39,6 @@ a{
 .link{
     display: inline;
     width: 100%;
-}
-
-ul{
-    margin-left: 15px;
 }
 
 .link:hover{
