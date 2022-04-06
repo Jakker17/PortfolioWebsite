@@ -3,11 +3,13 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div className="content">
       <div className="contact">
         <div className="text">
+        <div className="block-underline"></div>
           <h2 style={
-            {marginBottom:10}
+            {marginBottom:10,
+              marginTop: 100}
           }>Contact</h2>
           <p>
             You can contact me via email, my linkedin or github profile.

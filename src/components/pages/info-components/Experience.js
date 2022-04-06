@@ -3,7 +3,7 @@ import "./Experience.css";
 
 function Experience() {
   return (
-    <div>
+    <div className="content">
       <div className="experience">
         <div className="experience-header">
           <h1>Experience</h1>

@@ -6,8 +6,15 @@
     color: black;
   }
 
-  .app-light{
+  .app-light-menu{
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(175, 175, 175);
+    color: black;
+  }
 
+  .content{
+    justify-content: center;
+    display: flex;
   }
   
   .home,

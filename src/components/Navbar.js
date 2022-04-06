@@ -32,8 +32,9 @@ function Navbar() {
   window.addEventListener("resize", showIcons);
 
   return (
-    <>
-      <nav className="navbar">
+    
+      <div className="navbar app-light-menu">
+        <div className="content">
         <div className="navbar-container">
           <div className="navbar-left">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
@@ -95,8 +96,8 @@ function Navbar() {
             </div>
           )}
         </div>
-      </nav>
-    </>
+      </div>
+    </div>
   );
 }
 

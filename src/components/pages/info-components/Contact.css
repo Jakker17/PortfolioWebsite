@@ -1,11 +1,11 @@
 .contact{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    width: 1280px;
 }
 
 .text{
@@ -16,7 +16,6 @@
 .contact-links{
     width: 75%;
 }
-
 
 a{
     text-decoration:none;

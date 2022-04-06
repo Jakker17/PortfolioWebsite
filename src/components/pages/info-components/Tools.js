@@ -3,12 +3,13 @@ import "./Tools.css";
 
 function Tools() {
   return (
-    <div className="tools">
-      <div className="tools-header">
+    <div className="content">
+      <div className="tools">
+      <div className="tools-header layout">
         <h1>Tools</h1>
         <div className="block-underline"></div>
       </div>
-      <div className="tools-block">
+      <div className="tools-block layout">
         <h2>Hardware</h2>
         <ul className="list-content">
           <li>
@@ -57,6 +58,7 @@ function Tools() {
             </ul>
           </ul>
       </div>
+    </div>
     </div>
   );
 }

@@ -9,7 +9,6 @@ function Info() {
   return (
     <div>
         <InfoHeader/>
-        <div className="line-bottom"></div>
         <Contact/>
         
         <Experience/>

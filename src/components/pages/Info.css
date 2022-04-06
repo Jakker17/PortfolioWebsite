@@ -19,15 +19,26 @@ p {
 
 .list-content {
   margin-top: 2%;
+  list-style: none; /* Remove default bullets */
 }
 
 .block-underline {
   height: 1vh;
   border-top: 1px solid black;
   margin-bottom: 1%;
+  width:900px;
 }
 
-.list-content > li {
+.list-content li {
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+.list-content li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: blueviolet; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
