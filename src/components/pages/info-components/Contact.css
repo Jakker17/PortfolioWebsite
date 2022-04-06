@@ -41,10 +41,6 @@ a{
     width: 100%;
 }
 
-ul{
-    margin-left: 15px;
-}
-
 .link:hover{
     background-color: rgb(167, 112, 219);
 }

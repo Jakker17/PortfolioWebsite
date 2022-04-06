@@ -29,7 +29,7 @@ function Tools() {
             </div>
             <div className="tools-block layout">
               <h2>Hardware</h2>
-              <ul className="list-content">
+              <ul className="list-content ul-margin">
                 <li>
                   <p className="bold-item">PC: </p> M1 MacBook Air 13" 2021 16GB
                   RAM
@@ -50,7 +50,7 @@ function Tools() {
             </div>
             <div className="tools-block">
               <h2>Software</h2>
-              <ul className="list-content">
+              <ul className="list-content ul-margin">
                 <li>
                   <p className="bold-item">Code: </p> Visual Studio Code
                 </li>
@@ -89,7 +89,7 @@ function Tools() {
           </div>
           <div className="tools-block layout">
             <h2>Hardware</h2>
-            <ul className="list-content">
+            <ul className="list-content ul-margin">
               <li>
                 <p className="bold-item">PC: </p> M1 MacBook Air 13" 2021 16GB
                 RAM
@@ -110,7 +110,7 @@ function Tools() {
           </div>
           <div className="tools-block">
             <h2>Software</h2>
-            <ul className="list-content">
+            <ul className="list-content ul-margin">
               <li>
                 <p className="bold-item">Code: </p> Visual Studio Code
               </li>
@@ -130,12 +130,14 @@ function Tools() {
               <li>
                 <p className="bold-item">Browser: </p> Google Chrome
               </li>
+              <li>
               <p className="bold-item">Honorable mentions: </p>
-              <ul>
+              <ul className="list-content ul-margin">
                 <li>SourceTree</li>
                 <li>Notepad++</li>
                 <li>Postman</li>
               </ul>
+              </li>
             </ul>
           </div>
         </div>

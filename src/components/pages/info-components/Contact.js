@@ -32,7 +32,7 @@ function Contact() {
               </p>
             </div>
             <div className="contact-links">
-              <ul className="list-content">
+              <ul className="list-content ul-margin">
                 <li>
                   <a href="https://github.com/Jakker17" className="link">
                     Github
@@ -62,7 +62,7 @@ function Contact() {
               </p>
             </div>
             <div className="contact-links">
-              <ul className="list-content">
+              <ul className="list-content ul-margin">
                 <li>
                   <a href="https://github.com/Jakker17" className="link">
                     Github

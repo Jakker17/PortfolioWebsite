@@ -9,8 +9,12 @@ h2 {
   color: blueviolet;
 }
 
-li {
+.ul-margin > li {
   margin-left: 20px;
+}
+
+.ul-margin {
+    margin-left: 15px;
 }
 
 p {

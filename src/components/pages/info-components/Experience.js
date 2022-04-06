@@ -30,7 +30,7 @@ function Experience() {
               <h2>Skills</h2>
               <div className="experience-content">
                 <div>
-                  <ul className="list-content">
+                  <ul className="list-content ul-margin">
                     <li>English/Czech</li>
                     <li>Software Development</li>
                     <li>Web Development</li>
@@ -48,7 +48,7 @@ function Experience() {
               <h2>Programming languages</h2>
               <div className="experience-content">
                 <div>
-                  <ul className="list-content">
+                  <ul className="list-content ul-margin">
                     <li>Java</li>
                     <li>Spring Framework</li>
                     <li>React.js</li>
@@ -71,7 +71,7 @@ function Experience() {
               <h2>Skills</h2>
               <div className="experience-content">
                 <div>
-                  <ul className="list-content">
+                  <ul className="list-content ul-margin">
                     <li>English/Czech</li>
                     <li>Software Development</li>
                     <li>Web Development</li>
@@ -89,7 +89,7 @@ function Experience() {
               <h2>Programming languages</h2>
               <div className="experience-content">
                 <div>
-                  <ul className="list-content">
+                  <ul className="list-content ul-margin">
                     <li>Java</li>
                     <li>Spring Framework</li>
                     <li>React.js</li>
