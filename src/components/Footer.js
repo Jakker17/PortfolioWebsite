@@ -9,7 +9,11 @@ function Footer() {
   return (
     <div className="footer app-light-menu">
       <div className="footer-container">
-        <div className="footer-up">Made by Martin Juroš </div>
+        <div className="footer-up">
+          <p>Made by Martin Juroš ©
+            All rights Reserved.
+          </p>
+           </div>
         <div className="footer-down">
           <div className="footer-lower-left">
             <a href="https://www.linkedin.com/in/martin-juroš-37b277224/">
@@ -19,7 +23,7 @@ function Footer() {
           </div>
           <div className="footer-lower-center">
             <a href="https://github.com/Jakker17">
-              GitHub   
+              GitHub 
               <img src={GithubIcon} alt="" className="footer-img"/>
             </a>
           </div>
