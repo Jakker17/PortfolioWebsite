@@ -37,6 +37,7 @@
     width: 100%;
     text-decoration:none;
     font-weight: bold;
+    color: inherit;
 }
 
 .link:hover{

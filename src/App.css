@@ -3,18 +3,26 @@
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
-    color: black;
+    text-decoration: none;
+    color: inherit;
   }
+
 
   .app-light{
     background-color: white;
-  }
-
-  .app-light-menu{
-    background-color: rgb(226, 226, 226);
-    border: 1px solid rgb(175, 175, 175);
     color: black;
   }
+
+  .app-dark{
+    background-color: black;
+    color: white;
+  }
+
+  .app-dimme{
+    background-color: yellow;
+    color: blue;
+  }
+
 
   .content{
     justify-content: center;

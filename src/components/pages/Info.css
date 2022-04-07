@@ -1,6 +1,6 @@
 .line-bottom {
   height: 1px;
-  border-top: 1px solid black;
+  border-top: 1px solid;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -28,14 +28,14 @@ p {
 
 .block-underline {
   height: 1vh;
-  border-top: 1px solid black;
+  border-top: 1px solid;
   margin-bottom: 1%;
   width:900px;
 }
 
 .block-underline-smaller {
   height: 1vh;
-  border-top: 1px solid black;
+  border-top: 1px solid;
   margin-bottom: 1%;
   width:100%;
 }
