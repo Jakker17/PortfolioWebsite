@@ -35,16 +35,16 @@ function Tools() {
                   RAM
                 </li>
                 <li>
-                  <p className="bold-item">Monitor: </p> TBD
+                  <p className="bold-item">Monitor: </p> Dell Gaming S3422DWG 34"
                 </li>
                 <li>
-                  <p className="bold-item">Mouse: </p> TBD
+                  <p className="bold-item">Mouse: </p> Logitech G305 Lightspeed Wireless
                 </li>
                 <li>
-                  <p className="bold-item">Keyboard: </p> TBD
+                  <p className="bold-item">Keyboard: </p> Logitech G512 SE US
                 </li>
                 <li>
-                  <p className="bold-item">Headphones: </p> TBD
+                  <p className="bold-item">Headphones: </p> Logitech G935 Wireless
                 </li>
               </ul>
             </div>
@@ -59,13 +59,10 @@ function Tools() {
                 </li>
                 <li>
                   <p className="bold-item">Database Management: </p>{" "}
-                  dBeaver/terminal
+                  dBeaver / Terminal
                 </li>
                 <li>
                   <p className="bold-item">Notes: </p> Evernote
-                </li>
-                <li>
-                  <p className="bold-item">Browser: </p> Google Chrome
                 </li>
                 <li>
                   <p className="bold-item">Browser: </p> Google Chrome

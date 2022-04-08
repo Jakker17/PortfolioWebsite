@@ -1,17 +1,22 @@
 export const themes_secondary = {
     light: {
-      backgroundColor: "rgb(226, 226, 226)",
-      borderColor: "rgb(175, 175, 175)",
-      color: "black",
+      color: "rgb(68, 68, 68)",
     },
     dark: {
-      color: "r",
+      color: "rgb(255, 212, 121)",
     },
     dimme: {
-      backgroundColor: "yellow",
-      borderColor: "solid red",
-      color: "red",
+      color: "rgb(203, 75, 22)",
     },
+    lightLink:{
+      color: "black",
+    },
+    darkLink:{
+      color: "white",
+    },
+    dimmeLink:{
+      color: "black",
+    }
   };
 
 
