@@ -30,7 +30,7 @@ function Blog() {
           setArticleContext,
         ]}
       >
-        <div>
+        <div style={{minHeight:"100vh"}}>
           <Menu categories={categories} />
         </div>
         {categoryContext!==0 && <div className="blog-content">

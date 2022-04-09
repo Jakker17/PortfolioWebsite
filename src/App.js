@@ -25,11 +25,11 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app">
       <ThemeContext.Provider value={[theme, setTheme]}>
         <Router>
           <Navbar />
-          <div style={getTheme()}>
+          <div style={getTheme()} className="app-content">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/info" element={<Info />} />
