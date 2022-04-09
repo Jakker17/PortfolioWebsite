@@ -7,7 +7,7 @@ export const themes = {
   dark: {
     backgroundColor: "rgb(28, 30, 36)",
     borderColor: "#383b3f",
-    color: "white",
+    color: "rgb(210, 210, 210)",
   },
   dimme: {
     backgroundColor: "rgb(240, 214, 154)",

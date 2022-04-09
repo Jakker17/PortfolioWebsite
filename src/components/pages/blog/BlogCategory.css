@@ -1,0 +1,27 @@
+.article-list{
+    margin-top: 30px;
+    width: 70vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.article-box{
+    height: 30vh;
+    width:100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20%;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.article-box:hover{
+    background-color: #eeeeee;
+    color:black
+}

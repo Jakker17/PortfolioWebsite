@@ -7,7 +7,7 @@ export const themes_pages = {
   dark: {
     backgroundColor: "#282c34",
     borderColor: "solid #383b3f",
-    color: "white",
+    color: "rgb(210, 210, 210)",
   },
   dimme: {
     backgroundColor: "rgb(254, 240, 207)",

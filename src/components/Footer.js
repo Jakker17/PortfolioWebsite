@@ -1,9 +1,8 @@
-import React, { useState, useContext } from "react";
+import React, {  useContext } from "react";
 import "./Footer.css";
 import GithubIcon from "../logos/github_smaller.png";
 import LinkedinIcon from "../logos/linkedin_smaller.png";
 import NetlifyIcon from "../logos/netlify.png";
-import GatsbyIcon from "../logos/gatsby.png";
 import { themes } from "./theme-context";
 import { ThemeContext } from "./ThemeContext";
 
