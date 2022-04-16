@@ -3,15 +3,17 @@ import { BlogContext } from "./Blog-context";
 import "./MenuItem.css";
 import { themes } from "../../theme-context";
 import { ThemeContext } from "../../ThemeContext";
+import { BlogArticleContext } from "./Blog-Article-context";
 
 function MenuItem(props) {
-  const [, setCategoryContext, , ,] = useContext(BlogContext);
-  const [theme,] = useContext(ThemeContext);
+  const [, setCategoryContext] = useContext(BlogContext);
+  const [,setArticleContext] = useContext(BlogArticleContext);
+  const [theme] = useContext(ThemeContext);
+  const article = 0;
 
   const onClickHandler = () => {
-    console.log(props.id);
     setCategoryContext(props.id);
-    
+    setArticleContext(0);
   };
 
   const getTheme = () => {

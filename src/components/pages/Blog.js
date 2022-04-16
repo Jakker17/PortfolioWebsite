@@ -3,7 +3,9 @@ import Menu from "./blog/Menu";
 import "./Blog.css";
 import Axios from "axios";
 import { BlogContext } from "./blog/Blog-context";
+import { BlogArticleContext } from "./blog/Blog-Article-context";
 import BlogCategory from "./blog/BlogCategory";
+import BlogArticle from "./blog/BlogArticle";
 
 function Blog() {
   const [categories, setCategories] = useState([]);
@@ -22,23 +24,22 @@ function Blog() {
 
   return (
     <div className="blog">
-      <BlogContext.Provider
-        value={[
-          categoryContext,
-          setCategoryContext,
-          articleContext,
-          setArticleContext,
-        ]}
-      >
-        <div style={{minHeight:"100vh"}}>
-          <Menu categories={categories} />
-        </div>
-        {categoryContext!==0 && <div className="blog-content">
-            <BlogCategory/>
-            </div>}
+      <BlogContext.Provider value={[categoryContext, setCategoryContext]}>
+        <BlogArticleContext.Provider
+          value={[articleContext, setArticleContext]}
+        >
+          <div style={{ minHeight: "100vh" }}>
+            <Menu categories={categories} />
+          </div>
+          {categoryContext !== 0 && (
+            <div className="blog-content">
+              {articleContext===0 &&<BlogCategory />}
+              {articleContext!==0 &&<BlogArticle/>}
+            </div>
+          )}
 
+        </BlogArticleContext.Provider>
       </BlogContext.Provider>
-      {console.log(categoryContext)}
     </div>
   );
 }
