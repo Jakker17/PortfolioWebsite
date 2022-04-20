@@ -7,6 +7,11 @@
     color: inherit;
   }
 
+  .app{height: 100vh;}
+
+  .app-content{
+    min-height: 100%;
+  }
 
   .app-light{
     background-color: white;

@@ -1,0 +1,13 @@
+.blog{
+    display: flex;
+    height: 100%
+}
+
+.blog-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
