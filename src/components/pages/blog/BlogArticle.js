@@ -22,10 +22,18 @@ function BlogArticle() {
     <div className="article">
       <div className="article-header">
         <h1>{article.name}</h1>
+        Author:
       </div>
-      <div className="article-content">
-        <h3>{article.categoryId}</h3>
+      <div className="article-content-block">
+        <div className="article-content">
+        <div className="article-content-piece">
+        <h3>Category: {article.categoryId}</h3>
+        </div>
+        <div className="article-content-piece">
         <p>{article.article}</p>
+        </div>
+        
+        </div>
       </div>
     </div>
   );
