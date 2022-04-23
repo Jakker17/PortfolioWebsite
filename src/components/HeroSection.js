@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import "./HeroSection.css";
-import videoBG from "../videos/video-2.mp4";
 
 function HeroSection() {
   return (
