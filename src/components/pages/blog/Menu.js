@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, {  useContext } from "react";
 import "./Menu.css";
 import MenuItem from "./MenuItem";
 import { themes } from "../../theme-context";
