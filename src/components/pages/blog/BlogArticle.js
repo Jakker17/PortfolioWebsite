@@ -4,19 +4,20 @@ import { BlogArticleContext } from "./Blog-Article-context";
 import "./BlogArticle.css";
 
 function BlogArticle() {
-  const [articleContext] = useContext(BlogArticleContext);
+  const [articleContext,] = useContext(BlogArticleContext);
   const [article, setArticle] = useState({});
-  const getFromBE = () => {
-    Axios.get("http://localhost:8080/articles/getById/" + articleContext).then(
-      (response) => {
-        setArticle(response.data);
-      }
-    );
-  };
+
 
   useEffect(() => {
+    const getFromBE = () => {
+      Axios.get("http://localhost:8080/articles/getById/" + articleContext).then(
+        (response) => {
+          setArticle(response.data);
+        }
+      );
+    };
     getFromBE();
-  }, []);
+  }, [articleContext]);
 
   return (
     <div className="article">

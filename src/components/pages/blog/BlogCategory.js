@@ -8,15 +8,17 @@ function BlogCategory() {
   const [categoryContext, ,, ] = useContext(BlogContext);
   const [articles, setArticles] = useState([]);
 
-  const getFromBE = () => {
-    Axios.get(
-      "http://localhost:8080/articles/getAllByCategory/" + categoryContext
-    ).then((response) => {
-      setArticles(response.data);
-    });
-  };
+
 
   useEffect(() => {
+    const getFromBE = () => {
+      Axios.get(
+        "http://localhost:8080/articles/getAllByCategory/" + categoryContext
+      ).then((response) => {
+        setArticles(response.data);
+      });
+    };
+    
     getFromBE();
   }, [categoryContext]);
 
