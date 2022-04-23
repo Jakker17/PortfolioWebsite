@@ -9,7 +9,6 @@ function MenuItem(props) {
   const [, setCategoryContext] = useContext(BlogContext);
   const [,setArticleContext] = useContext(BlogArticleContext);
   const [theme] = useContext(ThemeContext);
-  const article = 0;
 
   const onClickHandler = () => {
     setCategoryContext(props.id);

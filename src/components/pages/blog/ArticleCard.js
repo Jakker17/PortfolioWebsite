@@ -1,6 +1,5 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useContext } from "react";
 import { BlogArticleContext } from "./Blog-Article-context";
-import BlogArticle from "./BlogArticle";
 
 function ArticleCard(props) {
     const [,setArticleContext] = useContext(BlogArticleContext);
