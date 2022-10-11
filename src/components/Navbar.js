@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
 import GithubIcon from "../logos/github_smaller.png";
 import LinkedinIcon from "../logos/linkedin_smaller.png";
 import MoonIcon from "../logos/moon_icon.png";
+import "./Navbar.css";
 import { themes } from "./theme-context";
 import { ThemeContext } from "./ThemeContext";
 
@@ -75,17 +75,10 @@ function Navbar() {
             <div className="menu-icon" onClick={handleClick}>
               <i className={click ? "fas fa-times" : "fas fa-bars"} />
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"} style={getTheme()}>
-              <li className="nav-item">
-                <Link
-                  to="/blog"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                  style={getTheme()}
-                >
-                  <p style={getTheme()}>Blog</p>
-                </Link>
-              </li>
+            <ul
+              className={click ? "nav-menu active" : "nav-menu"}
+              style={getTheme()}
+            >
               <li className="nav-item">
                 <Link
                   to="/projects"
@@ -110,7 +103,7 @@ function Navbar() {
             </ul>
           </div>
           {iconsVisibility && (
-            <div className="navbar-right" >
+            <div className="navbar-right">
               <div className="navbar-icons">
                 <div className="navbar-icons-icon">
                   <a href="https://github.com/Jakker17">

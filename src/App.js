@@ -1,14 +1,13 @@
-import "./App.css";
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import InDevelopment from "./components/pages/InDevelopment";
 import Info from "./components/pages/Info";
-import Footer from "./components/Footer";
+import { themes_pages } from "./components/pages/theme-context-pages";
 import { ThemeContext } from "./components/ThemeContext";
-import {themes_pages} from './components/pages/theme-context-pages'
-import Blog from "./components/pages/Blog";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -34,7 +33,6 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/info" element={<Info />} />
               <Route path="/projects" element={<InDevelopment />} />
-              <Route path="/blog" element={<Blog />} />
             </Routes>
           </div>
           <Footer />

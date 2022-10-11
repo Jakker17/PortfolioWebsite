@@ -1,48 +1,53 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-    text-decoration: none;
-    color: inherit;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  overscroll-behavior-x: inherit;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
 
-  .app{height: 100vh;}
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-  .app-content{
-    min-height: 100%;
-  }
+.app-content {
+  flex: 1;
+}
 
-  .app-light{
-    background-color: white;
-    color: black;
-  }
+.app-light {
+  background-color: white;
+  color: black;
+}
 
-  .app-dark{
-    background-color: black;
-    color: white;
-  }
+.app-dark {
+  background-color: black;
+  color: white;
+}
 
-  .app-dimme{
-    background-color: yellow;
-    color: blue;
-  }
+.app-dimme {
+  background-color: yellow;
+  color: blue;
+}
 
+.content {
+  justify-content: center;
+  display: flex;
+}
 
-  .content{
-    justify-content: center;
-    display: flex;
-  }
-  
-  .home,
-  .services,
-  .products,
-  .sign-up {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-
-  
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}

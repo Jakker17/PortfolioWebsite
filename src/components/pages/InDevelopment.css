@@ -1,5 +1,5 @@
 .dev-container {
-  height: 100vh;
+  height: 84.4vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,9 +9,9 @@
   object-fit: contain;
 }
 
-.dev-container> h1 {
-    align-items:center;
-    align-self: center;
-    font-size: 80x;
-    margin-top: -100px;
-  }
+.dev-container > h1 {
+  align-items: center;
+  align-self: center;
+  font-size: 80x;
+  margin-top: -100px;
+}

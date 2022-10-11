@@ -12,13 +12,6 @@ function HeroSection() {
           blog and informations about me and my journey to become Software
           Developer.
         </p>
-
-        <h2 style={{marginTop:300,
-        fontSize:30}}>Work in progress: </h2>
-        <ul>
-          <li>Blog</li>
-          <li>Projects</li>
-        </ul>
       </div>
     </div>
   );

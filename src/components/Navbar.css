@@ -1,6 +1,6 @@
 .navbar {
   /* background: linear-gradient(90deg, rgb(249, 135, 135) 0%, rgb(26, 23, 23) 100%); */
-  height: 82px;
+  min-height: 82px;
   font-size: 1.2rem;
   position: sticky;
   top: 0;
@@ -126,7 +126,6 @@ a {
   }
 
   .nav-menu.active {
-
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
