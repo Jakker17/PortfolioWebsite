@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import "./InfoHeader.css";
+import React, { useEffect, useState } from "react";
 import ProfilePicture from "../../../images/profile_picture.png";
+import "./InfoHeader.css";
 
 function InfoHeader() {
   const [smallerWindow, setSmallerWindow] = useState(false);
@@ -29,12 +29,20 @@ function InfoHeader() {
             <div className="info">
               <div className="info-left">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam
-                  quis nulla. Integer vulputate sem a nibh rutrum consequat.
-                  Pellentesque ipsum. Cum sociis natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus. Nullam dapibus
-                  fermentum ipsum. Nam libero tempore, cum soluta nobis est
-                  eligendi optio cumque nihil impedit
+                  Hello my name is Martin. I am junior software developer at
+                  Ness corporation. I also study for masters degree at Tomas
+                  Bata University. I mostly develop web apps.
+                </p>
+                <br />
+                <p>
+                  I prefer developing back-end parts of applications, such as
+                  Rest / SOAB api's. My main programming language is Java
+                  together with spring boot framework.
+                </p>
+                <br />
+                <p>
+                  But I don't really mind even programming websites using
+                  React.js and Next.js with Tailwindcss.
                 </p>
               </div>
               <div className="info-right">
@@ -56,12 +64,13 @@ function InfoHeader() {
             </div>
             <div className="info-down">
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam
-                quis nulla. Integer vulputate sem a nibh rutrum consequat.
-                Pellentesque ipsum. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Nullam dapibus
-                fermentum ipsum. Nam libero tempore, cum soluta nobis est
-                eligendi optio cumque nihil impedit
+                Hello my name is Martin. I am junior software developer at Ness
+                corporation. I also study for masters degree at Tomas Bata
+                University. I mostly develop web apps. I prefer developing
+                back-end parts of applications, such as Rest / SOAB api's. My
+                main programming language is Java together with spring boot
+                framework. But I don't really mind even programming websites
+                using React.js and Next.js with Tailwindcss.
               </p>
             </div>
           </div>

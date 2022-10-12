@@ -4,8 +4,9 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
-import InDevelopment from "./components/pages/InDevelopment";
+// import InDevelopment from "./components/pages/InDevelopment";
 import Info from "./components/pages/Info";
+import Projects from "./components/pages/projects-components/Projects";
 import { themes_pages } from "./components/pages/theme-context-pages";
 import { ThemeContext } from "./components/ThemeContext";
 
@@ -32,7 +33,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/info" element={<Info />} />
-              <Route path="/projects" element={<InDevelopment />} />
+              <Route path="/projects" element={<Projects />} />
             </Routes>
           </div>
           <Footer />

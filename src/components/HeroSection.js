@@ -8,9 +8,8 @@ function HeroSection() {
       <div className="hero-container">
         <h1>Hey, I am Martin.</h1>
         <p>
-          Welcome to my personal page. Here you can find my personal projects,
-          blog and informations about me and my journey to become Software
-          Developer.
+          Welcome to my personal page. Here you can find my personal projects
+          and informations about me and my journey to become Software Developer.
         </p>
       </div>
     </div>
