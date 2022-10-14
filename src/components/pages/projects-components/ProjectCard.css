@@ -11,3 +11,14 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
+.card > a {
+  height: 100%;
+  width: 100%;
+}
+
+.card > a > img {
+  width: 100%; /* or any custom size */
+  height: 100%;
+  object-fit: fill;
+}
