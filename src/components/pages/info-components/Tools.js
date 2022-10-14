@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Tools.css";
 
 function Tools() {
@@ -35,16 +35,19 @@ function Tools() {
                   RAM
                 </li>
                 <li>
-                  <p className="bold-item">Monitor: </p> Dell Gaming S3422DWG 34"
+                  <p className="bold-item">Monitor: </p> Dell Gaming S3422DWG
+                  34"
                 </li>
                 <li>
-                  <p className="bold-item">Mouse: </p> Logitech G305 Lightspeed Wireless
+                  <p className="bold-item">Mouse: </p> Logitech G305 Lightspeed
+                  Wireless
                 </li>
                 <li>
                   <p className="bold-item">Keyboard: </p> Logitech G512 SE US
                 </li>
                 <li>
-                  <p className="bold-item">Headphones: </p> Logitech G935 Wireless
+                  <p className="bold-item">Headphones: </p> Logitech G935
+                  Wireless
                 </li>
               </ul>
             </div>
@@ -58,22 +61,25 @@ function Tools() {
                   <p className="bold-item">Back-end: </p> IntelliJ IDEA Ultimate
                 </li>
                 <li>
-                  <p className="bold-item">Database Management: </p>{" "}
-                  dBeaver / Terminal
+                  <p className="bold-item">Database Management: </p> dBeaver /
+                  Terminal / IDEA
                 </li>
                 <li>
-                  <p className="bold-item">Notes: </p> Evernote
+                  <p className="bold-item">Containers: </p> Docker
                 </li>
                 <li>
-                  <p className="bold-item">Browser: </p> Google Chrome
+                  <p className="bold-item">Notes: </p> Evernote / Notion
                 </li>
                 <li>
-                <p className="bold-item">Honorable mentions: </p>
-                <ul className="list-content ul-margin">
-                  <li>SourceTree</li>
-                  <li>Notepad++</li>
-                  <li>Postman</li>
-                </ul>
+                  <p className="bold-item">Browser: </p> Google Chrome / Safari
+                </li>
+                <li>
+                  <p className="bold-item">Honorable mentions: </p>
+                  <ul className="list-content ul-margin">
+                    <li>GIT - IDEA</li>
+                    <li>Notepad++</li>
+                    <li>Postman</li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -117,25 +123,26 @@ function Tools() {
                 <p className="bold-item">Back-end: </p> IntelliJ IDEA Ultimate
               </li>
               <li>
-                <p className="bold-item">Database Management: </p>{" "}
-                dBeaver/terminal
+                <p className="bold-item">Database Management: </p> dBeaver /
+                Terminal / IDEA
               </li>
               <li>
-                <p className="bold-item">Notes: </p> Evernote
+                <p className="bold-item">Database Management: </p> dBeaver /
+                Terminal / IDEA
               </li>
               <li>
-                <p className="bold-item">Browser: </p> Google Chrome
+                <p className="bold-item">Notes: </p> Evernote / Notion
               </li>
               <li>
-                <p className="bold-item">Browser: </p> Google Chrome
+                <p className="bold-item">Browser: </p> Google Chrome / Safari
               </li>
               <li>
-              <p className="bold-item">Honorable mentions: </p>
-              <ul className="list-content ul-margin">
-                <li>SourceTree</li>
-                <li>Notepad++</li>
-                <li>Postman</li>
-              </ul>
+                <p className="bold-item">Honorable mentions: </p>
+                <ul className="list-content ul-margin">
+                  <li>GIT - IDEA</li>
+                  <li>Notepad++</li>
+                  <li>Postman</li>
+                </ul>
               </li>
             </ul>
           </div>
