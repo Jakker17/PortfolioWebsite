@@ -9,7 +9,10 @@ function Projects(props) {
       <div className="projects-content">
         <h1>Projects</h1>
         <div className="projects-container">
-          <ProjectCard img={portfolio2} />
+          <ProjectCard
+            img={portfolio2}
+            address="https://heroic-stroopwafel-4f3818.netlify.app"
+          />
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
